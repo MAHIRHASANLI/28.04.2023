@@ -1,0 +1,139 @@
+body{
+    /* width:100%; */
+    /* height: 80vh; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+div{
+    width: 800px;
+    height: 500px;
+    /* background-color:yellow; */
+position:relative;
+}
+.btn-left{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    background-color:rgba(0,0,0,0.635);
+    position:absolute;
+    top:45%;
+    left:-60px;
+    color:white;
+    transition: .5s linear;
+}
+.btn-left:hover{
+    transform: scale(1.2);
+}
+
+.btn-right{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    background-color:rgba(0,0,0,0.635);
+    position:absolute;
+    top: 45%;
+    transition: .5s linear;
+    right:-60px;
+    color:white;
+}
+.btn-right:hover{
+    transform: scale(1.2);
+}
+//
+.carousel-item {
+    width: 100%;
+    height: 500px;
+    
+}
+
+.imgcar{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(90%);
+    transition: .5s linear;
+}
+.imgcar:hover{
+   filter:none;
+   transform:scale(1.1);
+}
+#form__item{
+    width: 200px;
+    background-color: rgba(0, 60, 255, 0.747);
+    /* padding: 50px 0; */
+    color: white;
+    
+
+}
+.image{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    transition: .3s linear;
+}
+.image:hover{
+    transform: scale(1.02);
+}
+
+.center{
+    text-align: center;
+    transition: .5s linear;
+}
+.center:hover{
+    color:blue;
+    transform: scale(1.02);
+}
+.form-control{
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+input{
+    height: 40px;
+    transition: .5s linear;
+    /* margin-top: 10px; */
+}
+input[type=file]::file-selector-button{
+    border:none;
+    background-color:rgba(0,0,255,0.450);
+    padding:10px 20px;
+    border-radius:10px;
+    color:white;
+    cursor:pointer;
+    transition: .5s linear;
+    height: 40px;
+}
+input[type=file]::file-selector-button:hover{
+    background-color: rgba(0,0,255,0);
+    color:blue;
+}
+.buttonn{
+    text-align:center;
+    height: 50px;
+    transition: .3s linear;
+    background-color:rgba(0,0,255,0);
+    color: white;
+}
+.buttonn:hover{
+    background-color:white;
+    transform: scale(1.02);
+    color: blue;
+ 
+}
+
+.button{
+
+    display: flex;
+    flex-direction: column;
+    /* margin: 25px; */
+}
+#form__item{
+    transition: .5s linear;
+    background-color:rgba(0,0,255,0.450);
+    width: 300px;
+    padding:10px;
+    border-radius:10px;
+    margin:10px auto;
+}
+#form__item:hover{
+    transform: scale(1.05);
+}
